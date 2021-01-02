@@ -1,0 +1,15 @@
+Package: long.tools
+Title: Functions for Analyzing Longitudinal Data
+Version: 0.1.0
+Authors@R: 
+    person(given = "Myles",
+           family = "Maillet",
+           role = c("aut", "cre"),
+           email = "myles.a.maillet@gmail.com")
+Description: A collection of functions for working with longitudinal (i.e., multilevel) data in the social sciences. Includes functions for calculating ICCs and descriptive statistics, centering level-1 variables, and examining missing data. Designed for interval-contingent daily diary and longitudinal designs with two levels, but with some functionality for other research designs (e.g., persons nested in groups, ecological momentary assessment). This package is intended as a compliment to popular packages used for analyzing multilevel data (e.g., 'lme4', 'nlme').
+License: GPL-3
+Encoding: UTF-8
+Imports: dplyr, lme4, psych
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

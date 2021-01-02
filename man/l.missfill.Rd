@@ -9,7 +9,7 @@ l.missfill(data, user_id, time_id)
 \arguments{
 \item{data}{dataset stored as dataframe}
 
-\item{user_id}{the name of the level-2 grouping variable (e.g., person id)}
+\item{user_id}{the name of the level-2 grouping variable (e.g., person id); can be stored as a factor, numeric, or integer within a dataframe}
 
 \item{time_id}{if included, will calculate the ICC using an unconditional growth model (i.e., time included in the model as a predictor); should be stored as numeric or integer within a dataframe}
 }

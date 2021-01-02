@@ -2,7 +2,7 @@
 #'
 #' Tabulates a matrix summary of the number (or percent) or missing data for each variable in a dataset for each time point (i.e., measurement occasion). Assumes all participants are expected to provide data for each time point. Requires missing data to be stored as \code{NA}.
 #' @param data dataset stored as dataframe; missingness for all variables will be printed, so it is recommended to only include variables of interest in the dataset
-#' @param user_id the name of the level-2 grouping variable (i.e., person id)
+#' @param user_id the name of the level-2 grouping variable (i.e., person id); can be stored as a factor, numeric, or integer within a dataframe
 #' @param time_id the name of the \strong{time} variable (i.e., measurement occasion); should be stored as numeric or integer within a dataframe
 #' @param missing missing data presented as either a \code{count} or \code{percent}; defaults to \code{count}
 #' @keywords missing data

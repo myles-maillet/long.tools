@@ -9,7 +9,7 @@ l.describe(data, user_id, var_id, time_id = NULL, dec = 2)
 \arguments{
 \item{data}{dataset stored as dataframe}
 
-\item{user_id}{the name of the level-2 grouping variable (e.g., person id)}
+\item{user_id}{the name of the level-2 grouping variable (e.g., person id); can be stored as a factor, numeric, or integer within a dataframe}
 
 \item{var_id}{the name of the level-1 variable you want to examine; should be stored as numeric or integer within a dataframe}
 

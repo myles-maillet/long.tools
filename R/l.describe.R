@@ -2,7 +2,7 @@
 #'
 #' Calculates several descriptive statistics for a level-1 variable. Can be grouped by time or person id (i.e., level-2 grouping variable).
 #' @param data dataset stored as dataframe
-#' @param user_id the name of the level-2 grouping variable (e.g., person id)
+#' @param user_id the name of the level-2 grouping variable (e.g., person id); can be stored as a factor, numeric, or integer within a dataframe
 #' @param var_id the name of the level-1 variable you want to examine; should be stored as numeric or integer within a dataframe
 #' @param time_id if longitudinal, the name of the level-1 time variable (i.e., measurement occasion); should be stored as numeric or integer within a dataframe; if ignored, descriptive statistics are calculated by person id
 #' @param dec the number of decimals used to display descriptive statistics; defaults to 2

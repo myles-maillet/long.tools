@@ -16,7 +16,7 @@ l.icc(
 \arguments{
 \item{data}{dataset stored as dataframe}
 
-\item{user_id}{the name of the level-2 grouping variable (i.e., person id)}
+\item{user_id}{the name of the level-2 grouping variable (i.e., person id); can be stored as a factor, numeric, or integer within a dataframe}
 
 \item{var_id}{the name of the level-1 variable you want to calculate an ICC for; should be stored as numeric or integer within a dataframe}
 

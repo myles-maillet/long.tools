@@ -9,7 +9,7 @@ l.missbyid(data, user_id, time_id, missing = "count")
 \arguments{
 \item{data}{dataset stored as dataframe; missingness for all variables will be printed, so it is recommended to only include variables of interest in the dataset}
 
-\item{user_id}{the name of the level-2 grouping variable (e.g., person id)}
+\item{user_id}{the name of the level-2 grouping variable (e.g., person id); can be stored as a factor, numeric, or integer within a dataframe}
 
 \item{time_id}{the name of the \strong{time} variable (i.e., measurement occasion); should be stored as numeric or integer within a dataframe}
 

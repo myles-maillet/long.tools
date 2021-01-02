@@ -2,7 +2,7 @@
 #'
 #' Imputes NA values for missing (but expected) observations for each participant at each time point in a longitudinal design. In other words, creates a dataframe that includes all possible measurement occasions for each user. Limited use as-is, but a dependency for other missing data functions in this package. Requires missing data to be stored as \code{NA}.
 #' @param data dataset stored as dataframe
-#' @param user_id the name of the level-2 grouping variable (e.g., person id)
+#' @param user_id the name of the level-2 grouping variable (e.g., person id); can be stored as a factor, numeric, or integer within a dataframe
 #' @param time_id if included, will calculate the ICC using an unconditional growth model (i.e., time included in the model as a predictor); should be stored as numeric or integer within a dataframe
 #' @keywords missing data, imputation
 #' @return returns an imputed dataset with \code{NA} values for missing observations

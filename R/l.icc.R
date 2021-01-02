@@ -2,7 +2,7 @@
 #'
 #' Calculates an ICC for a level-1 variable by fitting a two-level unconditional model or unconditional growth model to determine the proportion of variance at each level. The ICC reflects the proportion of variance that is attributed to the higher level (e.g., ICC = 0.40 indicates that 40% of the variance in a variable is at level-2).
 #' @param data dataset stored as dataframe
-#' @param user_id the name of the level-2 grouping variable (i.e., person id)
+#' @param user_id the name of the level-2 grouping variable (i.e., person id); can be stored as a factor, numeric, or integer within a dataframe
 #' @param var_id the name of the level-1 variable you want to calculate an ICC for; should be stored as numeric or integer within a dataframe
 #' @param var_type the type of level-1 variable you are using, either \code{continuous} or \code{binary}; defaults to \code{continuous}; see Austin & Merlo (2017) for details on how the ICC is calculated with a binary outcome variable
 #' @param time_id if included, will calculate the ICC using an unconditional growth model (i.e., time included in the model as a predictor); should be stored as numeric or integer within a dataframe

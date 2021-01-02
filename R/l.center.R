@@ -2,7 +2,7 @@
 #'
 #' For centering level-1 variables, either with person-mean (i.e., within-person) or grand-mean centering. Using the function will output a new dataset with both the centered and group mean variables.
 #' @param data dataset stored as dataframe
-#' @param user_id the name of the level-2 grouping variable (e.g., person id)
+#' @param user_id the name of the level-2 grouping variable (e.g., person id); can be stored as a factor, numeric, or integer within a dataframe
 #' @param var_id the name of the level-1 variable you want to center; should be stored as numeric or integer within a dataframe
 #' @param type the type of centering you want to use, either person-mean centering \code{pmc} (i.e., centering around the means of level-2 grouping variables) or grand-mean centering \code{gmc} (i.e., centering around the grand mean); defaults to \code{pmc}; see Hoffman & Stawksi (2009) for a discussion of centering approaches
 #' @keywords centering variables, within-person
